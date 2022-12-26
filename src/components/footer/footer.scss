@@ -1,0 +1,98 @@
+@import "../../global.scss";
+
+.footer {
+    width: 100%;
+    display: flex;
+    background-color: rgb(73, 69, 69);
+    color: #fff;
+    margin-top: 10px;
+    @include mobile{
+        flex-direction: column;
+      }
+}
+
+  .left {
+    flex: 1.5;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    
+    .logo {
+      text-decoration: none;
+      display: flex;
+      color: inherit;
+      @include mobile{
+        font-size: 20px;
+      }
+      .logoTitle{
+        padding-top: 10px;
+        font-size: 20px;
+          font-weight: 700;
+          font-family: Georgia, 'Times New Roman', Times, serif;
+      }
+     
+    }
+  }
+    
+  .desc {
+    margin: 20px 0px;
+  }
+
+  .socialContainer {
+    display: flex;
+    margin: 10px 30px ; 
+  }
+  .social{
+    margin-right:20px;
+  }
+
+  .socialImg:hover{
+    width:  40px;
+    height: 40px;
+  }
+  
+  .center {
+    flex: 1;
+    padding: 30px;
+  }
+    
+  .titleFooter {
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+.listContent{
+  display: flex;
+  justify-content:center;
+}
+  
+  .list {
+
+    list-style: none;
+    
+  }
+   .link{
+    text-decoration: none;
+   } 
+
+  .listItem {
+    width: 100%;
+    margin-bottom: 10px;
+    color:#fff;
+    
+  }
+  
+  .right {
+    flex: 1;
+    padding: 20px;
+    
+  }
+    
+  .contactItem {
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+  
+  
+  

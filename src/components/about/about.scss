@@ -1,0 +1,40 @@
+@import "../../global.scss";
+
+.about{
+    display: flex;
+    margin: 10px;
+    @include mobile{
+        flex-direction: column;
+      }
+    .desc{
+      
+        height: 90%;
+        width: 45%;
+        padding: 10px;
+        @include mobile{
+            width: 100%;
+            
+          }
+        h1{
+            font-family: fantasy;
+        }
+        p{
+           font-family:Verdana, Geneva, Tahoma, sans-serif ;
+           padding: 20px 10px 0px ;
+        }
+    }
+    .img1{
+        padding: 40px 10px;
+        @include mobile{
+            display: none;
+          }
+     }
+     .img2{
+         padding: 90px 10px;
+         @include mobile{
+            display: none;
+          }
+     }
+}
+
+
